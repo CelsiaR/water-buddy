@@ -8,7 +8,7 @@ Your buddy peeks in from the edge of the screen, waves, and asks *"Did you drink
 - **Not yet** → she gets angry 😤, stamps her foot, and tells you to drink NOW
 - **Remind me later** → she pouts from the bottom of the screen and comes back in a few minutes
 
-![Water Buddy preview](docs/preview.jpg)
+![Water Buddy preview](docs/preview.svg)
 
 Out of the box you get **Drippy**, a little water drop. The fun part is turning it into a caricature of yourself (or a friend, your kid, your pet…). See [Make your own character](#-make-your-own-character) below.
 
