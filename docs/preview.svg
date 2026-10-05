@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 330" font-family="Segoe UI, Arial, sans-serif">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8fa3c9"/><stop offset="1" stop-color="#e6c6c9"/></linearGradient>
+<filter id="sh" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#28326e" flood-opacity=".25"/></filter></defs>
+<rect width="1100" height="330" rx="18" fill="url(#bg)"/>
+<g transform="translate(20 60) scale(.95)">
+    <defs><radialGradient id="gidle" cx=".38" cy=".35" r=".75"><stop offset="0" stop-color="#9fdcff"/><stop offset=".6" stop-color="#4fa9f0"/><stop offset="1" stop-color="#2f7fd8"/></radialGradient></defs>
+    <path d="M88 234 L86 266 M112 234 L114 266" stroke="#2f7fd8" stroke-width="10" stroke-linecap="round"/>
+    <path d="M100 20 C 120 60 165 110 165 160 A65 65 0 0 1 35 160 C 35 110 80 60 100 20 Z" fill="url(#gidle)"/>
+    <ellipse cx="72" cy="92" rx="10" ry="18" fill="#fff" opacity=".55" transform="rotate(25 72 92)"/>
+    <path d="M52 170 L38 200 M148 170 L162 200" stroke="#2f7fd8" stroke-width="10" stroke-linecap="round"/><ellipse cx="80" cy="126" rx="10" ry="13" fill="#fff"/><ellipse cx="120" cy="126" rx="10" ry="13" fill="#fff"/>
+       <circle cx="81" cy="128" r="7" fill="#163a6b"/><circle cx="121" cy="128" r="7" fill="#163a6b"/>
+       <circle cx="78" cy="124" r="2.5" fill="#fff"/><circle cx="118" cy="124" r="2.5" fill="#fff"/>
+    <path d="" stroke="#163a6b" stroke-width="5" stroke-linecap="round"/>
+    <ellipse cx="66" cy="146" rx="9" ry="5" fill="#ff9aa8" opacity=".6"/><ellipse cx="134" cy="146" rx="9" ry="5" fill="#ff9aa8" opacity=".6"/>
+    <path d="M86 150 Q100 162 114 150" stroke="#163a6b" stroke-width="4" fill="none" stroke-linecap="round"/>
+    </g>
+<g transform="translate(205 40)"><rect width="230" height="200" rx="26" fill="#ffffff" filter="url(#sh)"/>
+<text x="115" y="40" text-anchor="middle" font-size="28" fill="#20304f">Water Buddy</text>
+<text x="115" y="72" text-anchor="middle" font-size="19" fill="#20304f">Did you drink</text><text x="115" y="96" text-anchor="middle" font-size="19" fill="#20304f">some water?</text>
+<rect x="18" y="112" width="194" height="34" rx="17" fill="#36b062"/><text x="115" y="135" text-anchor="middle" font-size="16" fill="#fff">✓ Yes, I drank</text><rect x="18" y="154" width="194" height="34" rx="17" fill="#fde6f2"/><text x="115" y="177" text-anchor="middle" font-size="16" fill="#2b3a5c">Not yet</text></g>
+<g transform="translate(470 60) scale(.95)">
+    <defs><radialGradient id="gangry" cx=".38" cy=".35" r=".75"><stop offset="0" stop-color="#9fdcff"/><stop offset=".6" stop-color="#4fa9f0"/><stop offset="1" stop-color="#2f7fd8"/></radialGradient></defs>
+    <path d="M88 234 L86 266 M112 234 L114 266" stroke="#2f7fd8" stroke-width="10" stroke-linecap="round"/>
+    <path d="M100 20 C 120 60 165 110 165 160 A65 65 0 0 1 35 160 C 35 110 80 60 100 20 Z" fill="url(#gangry)"/>
+    <ellipse cx="72" cy="92" rx="10" ry="18" fill="#fff" opacity=".55" transform="rotate(25 72 92)"/>
+    <path d="M52 166 L40 186 L56 196 M148 166 L160 186 L144 196" stroke="#2f7fd8" stroke-width="10" fill="none" stroke-linecap="round" stroke-linejoin="round"/><ellipse cx="80" cy="126" rx="10" ry="13" fill="#fff"/><ellipse cx="120" cy="126" rx="10" ry="13" fill="#fff"/>
+       <circle cx="81" cy="128" r="7" fill="#163a6b"/><circle cx="121" cy="128" r="7" fill="#163a6b"/>
+       <circle cx="78" cy="124" r="2.5" fill="#fff"/><circle cx="118" cy="124" r="2.5" fill="#fff"/>
+    <path d="M70 104 L92 114 M130 104 L108 114" stroke="#163a6b" stroke-width="5" stroke-linecap="round"/>
+    <ellipse cx="66" cy="146" rx="9" ry="5" fill="#ff5a5a" opacity=".6"/><ellipse cx="134" cy="146" rx="9" ry="5" fill="#ff5a5a" opacity=".6"/>
+    <path d="M88 160 Q100 150 112 160" stroke="#163a6b" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M140 64 l6 6 m0 -6 l-6 6" stroke="#e5383b" stroke-width="4"/></g>
+<g transform="translate(655 40)"><rect width="230" height="200" rx="26" fill="#fff6f6" filter="url(#sh)"/>
+<text x="115" y="40" text-anchor="middle" font-size="28" fill="#20304f">Water Buddy</text>
+<text x="115" y="72" text-anchor="middle" font-size="19" fill="#20304f">Hmph! Please drink</text><text x="115" y="96" text-anchor="middle" font-size="19" fill="#20304f">water right now!</text>
+<rect x="18" y="112" width="194" height="34" rx="17" fill="#36b062"/><text x="115" y="135" text-anchor="middle" font-size="16" fill="#fff">Okay, drinking now</text><rect x="18" y="154" width="194" height="34" rx="17" fill="#fde6f2"/><text x="115" y="177" text-anchor="middle" font-size="16" fill="#2b3a5c">Remind me later</text></g>
+<g transform="translate(905 60) scale(.95)">
+    <defs><radialGradient id="gdrink" cx=".38" cy=".35" r=".75"><stop offset="0" stop-color="#9fdcff"/><stop offset=".6" stop-color="#4fa9f0"/><stop offset="1" stop-color="#2f7fd8"/></radialGradient></defs>
+    <path d="M88 234 L86 266 M112 234 L114 266" stroke="#2f7fd8" stroke-width="10" stroke-linecap="round"/>
+    <path d="M100 20 C 120 60 165 110 165 160 A65 65 0 0 1 35 160 C 35 110 80 60 100 20 Z" fill="url(#gdrink)"/>
+    <ellipse cx="72" cy="92" rx="10" ry="18" fill="#fff" opacity=".55" transform="rotate(25 72 92)"/>
+    <path d="M52 170 L38 200 M148 170 L128 150" stroke="#2f7fd8" stroke-width="10" stroke-linecap="round"/><rect x="104" y="146" width="22" height="30" rx="4" fill="#bfe6ff" stroke="#7cc4f5" stroke-width="3" transform="rotate(-35 115 161)"/><path d="M70 128 Q80 116 90 128 M110 128 Q120 116 130 128" stroke="#163a6b" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="" stroke="#163a6b" stroke-width="5" stroke-linecap="round"/>
+    <ellipse cx="66" cy="146" rx="9" ry="5" fill="#ff9aa8" opacity=".6"/><ellipse cx="134" cy="146" rx="9" ry="5" fill="#ff9aa8" opacity=".6"/>
+    <path d="M96 152 a4 4 0 1 0 8 0 a4 4 0 1 0 -8 0" stroke="#163a6b" stroke-width="4" fill="none" stroke-linecap="round"/>
+    </g>
+<text x="1000" y="52" text-anchor="middle" font-size="26">💙 💧 ✨</text>
+</svg>
