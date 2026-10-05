@@ -1,0 +1,10 @@
+{
+  "name": "Friend",
+  "buddyName": "Water Buddy",
+  "dailyGoal": 8,
+  "interval": 60,
+  "snooze": 10,
+  "startHour": 8,
+  "endHour": 22,
+  "sound": true
+}

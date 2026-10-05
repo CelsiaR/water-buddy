@@ -1,0 +1,60 @@
+*{box-sizing:border-box}
+html,body{margin:0;width:100%;height:100%;overflow:hidden;background:transparent;user-select:none;
+  font-family:"Patrick Hand","Baloo 2","Segoe UI",sans-serif}
+#stage{position:fixed;inset:0;pointer-events:none;overflow:hidden}
+
+#buddy{position:absolute;bottom:0;left:-400px;width:0;height:0;will-change:left}
+#wrap{position:absolute;bottom:0;left:0;transform-origin:50% 100%;will-change:transform}
+#sprite{display:block;position:absolute;bottom:0;transform:translateX(-50%);pointer-events:auto;cursor:pointer;
+  filter:drop-shadow(0 10px 8px rgba(30,40,70,.28));-webkit-user-drag:none}
+#buddy:before{content:"";position:absolute;left:-70px;bottom:-6px;width:140px;height:16px;border-radius:50%;
+  background:radial-gradient(rgba(20,30,60,.30),transparent 70%)}
+
+/* main question card — matches the mockup */
+.card{position:absolute;bottom:170px;width:300px;padding:18px 22px 14px;border-radius:30px;text-align:center;
+  background:rgba(255,255,255,.97);color:#20304f;pointer-events:auto;
+  box-shadow:0 18px 50px rgba(40,50,110,.28),inset 0 0 0 2px rgba(255,255,255,.9);
+  transition:opacity .25s ease, transform .35s cubic-bezier(.3,1.6,.5,1)}
+.card.angry{background:rgba(255,246,246,.98)}
+.card.happy{background:rgba(244,255,248,.98)}
+.title{font-size:40px;line-height:1;letter-spacing:.5px}
+.heart{font-size:30px}
+#message{font-size:27px;line-height:1.15;margin:8px 0 14px}
+.buttons{display:flex;flex-direction:column;gap:10px}
+.buttons.none{display:none}
+.pill{font:inherit;font-size:23px;border:0;border-radius:999px;padding:9px 16px;cursor:pointer;
+  transition:transform .12s ease, filter .12s}
+.pill:hover{transform:translateY(-2px) scale(1.02);filter:brightness(1.05)}
+.pill:active{transform:scale(.96)}
+.yes{background:linear-gradient(#43c06d,#2fa85a);color:#fff;box-shadow:0 6px 14px rgba(47,168,90,.35)}
+.later{background:#fde6f2;color:#2b3a5c;box-shadow:inset 0 0 0 2px #f7cfe3}
+#close{position:absolute;top:12px;right:16px;border:0;background:none;font-size:20px;color:#3a4566;cursor:pointer;opacity:.75}
+#close:hover{opacity:1}
+#tally{margin-top:10px;font-size:17px;color:#5672a8}
+
+/* small speech bubble */
+.bubble{position:absolute;bottom:250px;max-width:220px;padding:12px 18px;border-radius:26px;background:#fff;
+  color:#20304f;font-size:24px;line-height:1.15;text-align:center;box-shadow:0 12px 30px rgba(40,50,110,.22);
+  transition:opacity .2s ease, transform .3s cubic-bezier(.3,1.6,.5,1)}
+.bubble:after{content:"";position:absolute;bottom:-10px;width:22px;height:22px;background:#fff;border-radius:4px;transform:rotate(45deg)}
+.bubble.tailL:after{left:22px}
+.bubble.tailR:after{right:22px}
+
+.hidden{opacity:0!important;transform:translateY(16px) scale(.85)!important;pointer-events:none!important}
+
+/* effects */
+#fx{position:absolute;inset:0;pointer-events:none}
+.pop{position:absolute;font-size:28px;animation:floatUp 1.7s ease-out forwards}
+@keyframes floatUp{0%{opacity:0;transform:scale(.4)}15%{opacity:1;transform:translateY(-10px) scale(1.15)}
+  100%{opacity:0;transform:translate(var(--dx),-150px) scale(.9) rotate(var(--rot))}}
+.cloud{position:absolute;width:26px;height:26px;border-radius:50%;background:#fff;
+  box-shadow:14px -6px 0 2px #fff,26px 2px 0 -2px #fff;opacity:.9;animation:cloud .7s ease-out forwards}
+@keyframes cloud{0%{opacity:.95;transform:scale(.5)}100%{opacity:0;transform:translate(var(--dx),-14px) scale(1.4)}}
+.steam{position:absolute;width:20px;height:20px;border-radius:50%;background:rgba(200,200,210,.7);animation:steam 1s ease-out forwards}
+@keyframes steam{0%{opacity:.9;transform:scale(.3)}100%{opacity:0;transform:translate(var(--dx),-50px) scale(1.8)}}
+.mark{position:absolute;font-size:34px;animation:mark .5s ease-in-out infinite alternate}
+@keyframes mark{from{transform:scale(.85)}to{transform:scale(1.15)}}
+#speed{position:absolute;inset:0}
+.line{position:absolute;height:4px;border-radius:4px;background:rgba(255,255,255,.85);
+  box-shadow:0 0 6px rgba(120,160,255,.5);animation:line .45s ease-out forwards}
+@keyframes line{0%{opacity:.9;transform:scaleX(.3)}100%{opacity:0;transform:scaleX(1.2) translateX(var(--dx))}}

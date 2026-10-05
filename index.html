@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Water Buddy</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Baloo+2:wght@700&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="stage">
+  <div id="speed"></div>
+  <div id="buddy">
+    <div id="wrap"><img id="sprite" class="interactive" src="" alt="Water buddy" draggable="false"></div>
+  </div>
+
+  <div id="bubble" class="bubble hidden"><span id="bubbleText">Hi! 💙</span></div>
+
+  <div id="card" class="card hidden interactive">
+    <button id="close" title="Remind me later">✕</button>
+    <div class="title">Water Buddy <span class="heart">💙</span></div>
+    <div id="message">Did you drink<br>some water?</div>
+    <div id="buttons" class="buttons">
+      <button id="btnA" class="pill yes">✓ Yes, I drank 💧</button>
+      <button id="btnB" class="pill later">🕒 Not yet 😅</button>
+    </div>
+    <div id="tally">💧 0 / 8 today</div>
+  </div>
+
+  <div id="fx"></div>
+</div>
+<script src="character.js"></script>
+<script src="renderer.js"></script>
+</body>
+</html>

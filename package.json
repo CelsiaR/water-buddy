@@ -1,0 +1,12 @@
+{
+  "name": "water-buddy",
+  "productName": "Water Buddy",
+  "version": "1.0.0",
+  "description": "A cute desktop character that runs across your screen and reminds you to drink water - with your own caricature.",
+  "main": "main.js",
+  "scripts": { "start": "electron ." },
+  "author": "Celsia R (https://github.com/CelsiaR)",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/CelsiaR/water-buddy" },
+  "devDependencies": { "electron": "^38.0.0" }
+}

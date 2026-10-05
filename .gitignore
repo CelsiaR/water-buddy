@@ -1,0 +1,6 @@
+node_modules/
+# your personal pictures stay on your computer
+character/*.png
+character/*.jpg
+character/*.jpeg
+character/*.webp
